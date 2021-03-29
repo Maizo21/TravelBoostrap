@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/img/svg-travel/svg/050-worldwide.svg" type="image/x-icon">
+    <title>MaizoTravel</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="pe-0 m-0 col-1 nav-icon" href="#"
+            ><img src="/img/svg-travel/svg/012-car.svg" class="nav-icon-img"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiencias">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiencias">Experiencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#planes">Planes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        id="carousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        class="col-1"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/imagenes/suiza1.jpg" class="d-block" alt="..." />
+            <div class="carousel-caption d-none d-md-block text-start">
+              <h4>Viaja a Suiza</h4>
+              <p class="fs-5">
+                Vive Lucerna, las cataratas del Rin, Berna, Basilea y Zúrich.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/img//imagenes/roraima.jpg" class="d-block" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Aventura en el Roraima</h4>
+              <p class="fs-5">
+                Una altura magestuosa de 2.810 metros con flora y fauna unica en
+                todo el planeta.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/img/imagenes/desierto.jpg" class="d-block" alt="..." />
+            <div class="carousel-caption d-none d-md-block text-end">
+              <h4>Desierto Florido en Atacama</h4>
+              <p class="fs-5">
+                Un gran número de plantas bajas crecen en esta arena aridísima y
+                alegran la vista con sus flores doradas, azules y coloradas
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <hr />
+
+      <div class="row first-content">
+        <div class="accordion col-sm col-lg col-xl pt-2" id="accordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button fs-5"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                ¿Por qué viajar con nosotros?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordion"
+            >
+              <div class="accordion-body">
+                <strong>#1 TripAdvisor</strong> Ademas de muchísimo espacio para
+                las piernas, meriendas y Wi-Fi gratis.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed fs-5"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Misión
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordion"
+            >
+              <div class="accordion-body">
+                <strong>Nuestra misión es</strong> conectar personas mediante
+                los viajes a tarifas Ultra Bajas.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed fs-5"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Visión
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordion"
+            >
+              <div class="accordion-body">
+                <strong>Nuestra visión</strong> para los proximos 5 años es
+                conectar a millones de personas en toda América.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-sm comments-users d-flex ml-2 justify-content-center"
+          id="experiencias"
+        >
+          <div class="card col-2 me-4" style="width: 18rem">
+            <img
+              src="/img/imagenes/avatar1.jpg"
+              class="card-img-top rounded-circle align-self-center"
+              alt="..."
+            />
+            <p class="fs-5 align-self-center">Tomas Lopez</p>
+            <div class="card-body user-comments">
+              <p class="card-text">Excelente experiencia, les doy un 10/10.</p>
+            </div>
+          </div>
+          <div class="card col-2 me-4" style="width: 18rem">
+            <img
+              src="/img/imagenes/avatar2.jpg"
+              class="card-img-top rounded-circle align-self-center"
+              alt="..."
+            />
+            <p class="fs-5 align-self-center">Kathe Ramirez</p>
+            <div class="card-body user-comments">
+              <p class="card-text">
+                Me encantó! Me encontré con una experiencia genial. Los volvería
+                a elegir, sin dudas.
+              </p>
+            </div>
+          </div>
+          <div class="card col-2" style="width: 18rem">
+            <img
+              src="/img/imagenes/avatar3.jpg"
+              class="card-img-top rounded-circle align-self-center"
+              alt="..."
+            />
+            <p class="fs-5 align-self-center">Richard y Camila</p>
+            <div class="card-body user-comments">
+              <p class="card-text">
+                Fue un viaje hermoso. La empresa cumplió con todo y no generó
+                falsas expectativas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">
+            Disfruta del Snowboard
+            <img
+              src="/img/svg-travel/svg/008-cable car cabin.svg"
+              class="nav-icon-img"
+            />
+          </h2>
+          <p class="lead">
+            Para aquellos que buscan un poco más de emoción y libertad en la
+            nieve, este deporte está hecho a su medida. Disfruta de los
+            maravillosos paisajes blancos y el limpio aire de montaña mientras
+            practicas esta increíble actividad. Para mujeres, hombres, niños y
+            adultos, el snowboard es el panorama perfecto para este invierno.
+          </p>
+        </div>
+
+        <div class="col-md-5">
+          <img
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded"
+            width="500"
+            height="500"
+            role="img"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            src="/img/imagenes/snowboard.jpg"
+          />
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">
+            Día de playa
+            <img src="/img/svg-travel/svg/005-beach.svg" class="nav-icon-img" />
+          </h2>
+          <p class="lead">
+            En Chile no solo encontrarás los paisajes de la Patagonia. También
+            hay muchas playas hermosas por descubrir como El Laucho, La Lisera,
+            Bahía Inglés, etc. La variedad de paisajes que ofrece Chile es una
+            de las más variadas del mundo: extensiones blancas y arenosas, rocas
+            y acantilados con vistas al mar, o rascacielos con vistas al océano.
+          </p>
+        </div>
+
+        <div class="col-md-5 order-md-1">
+          <img
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded"
+            width="500"
+            height="500"
+            role="img"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            src="/img/imagenes/beach.jpg"
+          />
+        </div>
+      </div>
+
+      <hr />
+      <div class="text-center" id="planes">
+        <h2 class="display-4">Planes</h2>
+        <p class="fs-5 align-self-center">
+          Tomando uno de nuestros planes podras optar a diversos beneficios como
+          descuento en boleteria, estadia y seguros, ademas de promociones y
+          gestion de servicios para brindarte la mejor experiencia
+        </p>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm col">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Básico</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $100<small class="text-muted fw-light">/mes</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Asistencia en reservaciones de hotel</li>
+                <li>Soporte por email</li>
+              </ul>
+              <button
+                type="button"
+                class="w-100 btn btn-lg btn-outline-primary"
+              >
+                Adquirir este plan
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Normal</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $150<small class="text-muted fw-light">/mes</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>
+                  Gestion en hoteleria y boleteria garantizando el precio mas
+                  bajo
+                </li>
+                <li>Soporte directo</li>
+              </ul>
+              <button
+                type="button"
+                class="w-100 btn btn-lg btn-outline-primary btn-primary text-white"
+              >
+                Adquirir este plan
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-dark">
+            <div class="card-header card-especial py-3 bg-dark">
+              <h4 class="my-0 fw-normal border-primary text-white">Especial</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $200<small class="text-muted fw-light">/mes</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>
+                  Gestion en hoteleria y boleteria garantizando mejor precio
+                </li>
+                <li>Soporte y Promociones especiales</li>
+              </ul>
+              <button
+                type="button"
+                class="w-100 btn btn-lg btn-outline-dark btn-dark text-white"
+              >
+                Adquirir este plan
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <footer class="container py-5">
+        <div class="text-center" id="contacto">
+          <h2 class="display-4">Contacto</h2>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md">
+            <a href="#"><img src="/img/svg-travel/svg/012-car.svg"
+             class="footer-icon" />
+             </a>
+            <small class="d-block mb-3 text-muted">© 2020–2021</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Redes</h5>
+            <ul class="list-unstyled text-small">
+              <li>
+                <a
+                  class="link-info"
+                  href="https://www.linkedin.com/in/hernan-amaiz-367b08103/" target="_blank"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a class="link-info" href="https://www.instagram.com/maizorito_" target="_blank"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a class="link-info" href="https://github.com/Maizo21" target="_blank">Github</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Ubicación</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-info mapa" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Mapa</a></li>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Mapa</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body d-flex align-content-center justify-content-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.321925760416!2d-70.6661063846251!3d-33.44091840440952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5ac2484bbd9%3A0xf3f55b9d6e6bba5!2sHu%C3%A9rfanos%201919%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1616983403974!5m2!1ses!2scl" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-info" href="#">Business</a></li>
+              <li><a class="link-info" href="#">Education</a></li>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jquery/jquery-3.6.0.min.js"></script>
+  </body>
+</html>
