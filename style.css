@@ -72,14 +72,20 @@
   cursor: pointer;
 }
 
-@media (max-width: 940px) {
+@media (max-width: 1850px) {
   .comments-users {
-    flex-direction: column;
     justify-self: center;
     justify-content: center;
-    width: 20%;
     flex-wrap: wrap;
     gap: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .comments-users {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
   }
 }
 
